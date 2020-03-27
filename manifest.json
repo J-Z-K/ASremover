@@ -1,0 +1,19 @@
+{
+    "name": "Arleta Blocker",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches" : ["*://synergia.librus.pl/wiadomosci"],
+            "js": ["content.js"]
+        },
+        {
+            "matches" : ["*://synergia.librus.pl/wiadomosci/5"],
+            "js": ["content.js"]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Arleata Blocker"
+    }
+}
