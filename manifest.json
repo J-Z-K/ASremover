@@ -11,9 +11,5 @@
             "matches" : ["*://synergia.librus.pl/wiadomosci/5"],
             "js": ["content.js"]
         }
-    ],
-    "browser_action": {
-        "default_popup": "popup.html",
-        "default_title": "Arleata Blocker"
-    }
+    ]
 }
